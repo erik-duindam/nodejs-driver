@@ -197,6 +197,10 @@ client.on('log', function(level, className, message, furtherInfo) {
 ```
 The `level` being passed to the listener can be `verbose`, `info`, `warning` or `error`.
 
+## Feedback Requested
+
+**Help us focus our efforts!** Provide your input on the [Platform and Runtime Survey][survey] (we kept it short).
+
 ## Credits
 
 This driver is based on the original work of [Jorge Bay][jorgebay] on [node-cassandra-cql][old-driver] and adds a series of advanced features that are common across all other [DataStax drivers][drivers] for Apache Cassandra.
@@ -233,3 +237,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
 [jira]: https://datastax-oss.atlassian.net/projects/NODEJS/issues
 [streams2]: http://nodejs.org/api/stream.html#stream_class_stream_readable
 [cql-udt]: http://cassandra.apache.org/doc/cql3/CQL.html#createTypeStmt
+[survey]: http://goo.gl/forms/f216tY3Ebr
